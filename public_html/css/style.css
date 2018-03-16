@@ -1,0 +1,42 @@
+/*Hoja de estilos*/
+/*Cristhian Coronel*/
+/*
+tamaños de pantalla:
+Normal: desde 1024px para arriba;
+Tableta: desde 600px hasta 900px;
+Celular: desde el mas pequeño hasta 600px;
+*/
+/************************************opciones inicales**************************/
+* { /*todos los tags*/
+    box-sizing: border-box;
+}
+div.encabezado{
+    background-color: beige;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+div.encabezado div img.logo {
+    max-width: 100%;
+    max-height: 2.5cm;
+}
+.bg-custom-green {
+    background-color: darkseagreen;
+}
+.bg-custom-grey {
+    background-color: #b3aeae;
+}
+/***********************************Primero mobiles**************************/
+/* Tamaño Celular */
+
+/* Tamaño Tableta: */
+@media only screen and (min-width: 600px) {
+    
+}
+/* Tamaño Normal: */
+@media only screen and (min-width: 800px) {
+    /*menu horizontal*/
+    
+    /*menu vertical*/
+    
+}
